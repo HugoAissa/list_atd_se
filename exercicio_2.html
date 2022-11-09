@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 02</title>
+</head>
+<body>
+    <h1>O mais Obeso</h1>
+    <div id="resultado"></div>
+    <script>
+        alert ("oi :D")
+        let nome1 = prompt("Digite o nome da primeira pessoa")
+        let peso1 = Number (prompt ("Digite o peso desta pessoa "))
+        let nome2 = prompt("Digite o nome da segunda pessoa")
+        let peso2 = Number (prompt ("Digite o peso desta segunda pessoa"))
+        let resul;
+
+        if (peso1 > peso2){
+            resul=" O " + nome1 +" é mais obeso " + " Peso: "+peso1 + " Do que o " + nome2 + " Peso: "+peso2
+            
+        }else{
+            resul=" O " + nome2 +" é mais obeso " + " Peso: "+peso2 + " Do que o " + nome1 + " Peso: "+peso1
+        }
+        document.getElementById("resultado").innerHTML=resul
+
+
+        
+        
+        
+    </script>
+    
+</body>
+</html>
